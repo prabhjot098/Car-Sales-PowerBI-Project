@@ -15,6 +15,14 @@ To meet these needs, the dashboard was built around two primary areas:
 1. **Sales Overview**: Offering a snapshot of YTD and MTD sales, average prices, and total cars sold.
 2. **Detailed Sales Insights**: Breaking down sales by car characteristics, dealer regions, and weekly trends.
 
+## Dashboard Overview
+
+Here’s a visual representation of the **Dashboard Overview**:
+
+![Dashboard Overview](dashboard%20overview.png)
+
+*Figure: Car Sales Dashboard Overview in Power BI*
+
 ## Steps to Build the Dashboard
 
 Here’s how I created this dynamic, interactive dashboard in Power BI:
@@ -35,13 +43,9 @@ Using **DAX (Data Analysis Expressions)**, I created measures to track key metri
 - **Year-over-year (YOY)** comparisons.
 - Percentage growth between the current year and the previous year.
 
-### **KPI Dashboard Example**
+### **DAX Calculation Example**
 
-Here’s a visual representation of the **KPI Dashboard**:
-
-![KPI Dashboard](images/kpi.png)
-
-*Figure 1: KPI Dashboard in Power BI*
+![YTD Total Sales](YTD%20Total%20Sales.png)
 
 For example, to calculate **YTD Total Sales**, I used a simple DAX formula to sum the sales values filtered by the current year.
 
@@ -67,6 +71,8 @@ The most important aspect of any Power BI dashboard is its visuals. Here's a bre
 - **Details Grid**: A detailed table was created using **Power BI Table visual** to display all car sales transactions. It includes the car model, color, body style, sales amount, and dealer details.
 
 - **Sales Trend by Companies**: This table provided a breakdown of sales figures by car company (e.g., Audi, Toyota, etc.) and calculated trends such as percentage growth in sales for each.
+
+- 
 
 ### 5. Adding Filters for Interactivity
 
